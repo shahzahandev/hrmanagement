@@ -1,0 +1,21 @@
+# Dependencies and build
+node_modules/
+jspm_packages/
+.npm
+.yarn/cache
+.yarn/unplugged
+.pnp.*
+build/Release
+dist/
+
+# Environment and secrets
+.env
+.env.test
+
+# Testing and Coverage
+coverage/
+.vscode-test
+
+# OS Files
+.DS_Store
+Thumbs.db
